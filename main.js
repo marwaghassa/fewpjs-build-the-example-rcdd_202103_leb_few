@@ -27,7 +27,7 @@ mimicServerCall("bogusUrl")
 }
 }
 for (const glyph of articleHearts) {
-  glyph.addEventListener("click", likeCallback);
+  glyph.addEventListener("click", liking);
 }
 
 
