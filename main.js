@@ -1,7 +1,15 @@
 // Defining text characters for the empty and full hearts for you to use later.
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
+const glyphStates = {
+  "♡": "♥",
+  "♥": "♡"
+};
 
+const colorStates = {
+  "red" : "",
+  "": "red"
+};
 // Your JavaScript code goes here!
 
 const articleHearts = document.querySelectorAll(".like-glyph");
