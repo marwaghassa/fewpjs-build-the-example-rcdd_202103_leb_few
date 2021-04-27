@@ -6,7 +6,7 @@ const FULL_HEART = '♥'
 
 const articleHearts = document.querySelectorAll(".like-glyph");
 function liking(e){
-  
+  const heart = e.target;
 mimicServerCall("bogusUrl")
 .then(
   )
