@@ -5,9 +5,9 @@ const FULL_HEART = '♥'
 // Your JavaScript code goes here!
 
 const articleHearts = document.querySelectorAll(".like-glyph");
-function liking(){
+function liking(e){
   
-mimicServerCall()
+mimicServerCall("bogusUrl")
 .then(
   )
 .catch(function(error){
