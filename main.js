@@ -4,6 +4,20 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+const articleHearts = document.querySelectorAll(".like-glyph");
+function liking(){
+  
+mimicServerCall()
+.then(
+  )
+.catch(function(error){
+  const modal=document.getElementById('modal');
+  modal.className="";
+  modal.innerText=error;
+}
+
+
+
 
 
 
