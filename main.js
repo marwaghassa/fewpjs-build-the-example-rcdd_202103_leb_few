@@ -25,8 +25,7 @@ mimicServerCall("bogusUrl")
   modal.className="";
   modal.innerText=error;
 }
-
-
+}
 
 
 
