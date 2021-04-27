@@ -8,7 +8,9 @@ const articleHearts = document.querySelectorAll(".like-glyph");
 function liking(e){
   const heart = e.target;
 mimicServerCall("bogusUrl")
-.then(
+.then(function(serverMessage){
+       heart.innerText = glyphStates[heart.innerText];
+       heart.style.color = colorStates[heart.style.color];}
   )
 .catch(function(error){
   const modal=document.getElementById('modal');
